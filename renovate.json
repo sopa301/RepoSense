@@ -12,5 +12,6 @@
       "matchUpdateTypes": ["major"],
       "automerge": false
     }
-  ]
+  ],
+  "dependencyDashboard": true
 }
