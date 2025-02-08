@@ -19,7 +19,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/vue-fontawesome": "^3.0.6",
-    "@types/markdown-it": "^13.0.7",
+    "@types/markdown-it": "^14.0.0",
     "@types/minimatch": "^5.1.2",
     "@types/seedrandom": "^3.0.8",
     "core-js": "^3.36.1",
