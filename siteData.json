@@ -8,15 +8,23 @@
         "about-us": "About us",
         "current-team": "Current team",
         "damith-c-rajapakse": "Damith C. Rajapakse",
+        "charisma-kausar": "Charisma Kausar",
+        "david-gareth-ong": "David Gareth Ong",
+        "gokul-rajiv": "Gokul Rajiv",
+        "marcus-tang-xin-kye": "Marcus Tang Xin Kye",
+        "chang-si-kai": "Chang Si Kai",
+        "alvis-ng": "Alvis Ng",
+        "george-tay-quan-yao": "George Tay Quan Yao",
+        "jonas-ong-si-wei": "Jonas Ong Si Wei",
+        "poon-yip-hang-ryan": "Poon Yip Hang, Ryan",
+        "past-members": "Past Members",
         "wang-chao": "Wang Chao",
         "hsu-zhong-jun": "Hsu Zhong Jun",
         "chan-ger-hean": "Chan Ger Hean",
         "huang-chengyu": "Huang Chengyu",
         "chan-jun-da": "Chan Jun Da",
         "tay-yi-hsuen": "Tay Yi Hsuen",
-        "gokul-rajiv": "Gokul Rajiv",
         "zhou-jiahao": "Zhou Jiahao",
-        "past-members": "Past Members",
         "ma-tanghao": "Ma Tanghao",
         "ong-shu-peng": "Ong Shu Peng",
         "tan-jun-an": "Tan Jun An",
@@ -225,10 +233,16 @@
       "headingKeywords": {}
     },
     {
+      "src": "ug/blurbs.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
       "src": "ug/cli.md",
       "title": "Appendix: CLI syntax reference",
       "headings": {
         "appendix-cli-syntax-reference": "Appendix: CLI syntax reference",
+        "analyze-authorship-a": "--analyze-authorship, -A",
         "assets-a": "--assets, -a",
         "config-c": "--config, -c",
         "formats-f": "--formats, -f",
@@ -237,6 +251,7 @@
         "ignore-standalone-config-i": "--ignore-standalone-config, -i",
         "ignore-filesize-limit-i": "--ignore-filesize-limit, -I",
         "last-modified-date-l": "--last-modified-date, -l",
+        "originality-threshold-ot": "--originality-threshold, -ot",
         "output-o": "--output, -o",
         "period-p": "--period, -p",
         "repo-repos-r": "--repo, --repos, -r",
@@ -259,7 +274,8 @@
         "group-config-csv": "group-config.csv",
         "report-config-json": "report-config.json",
         "config-json-standalone-config-file": "config.json (standalone config file)",
-        "a-note-about-git-author-name": "A note about git author name"
+        "a-note-about-git-author-name": "A note about Git author name",
+        "blurbs-md": "blurbs.md"
       },
       "headingKeywords": {}
     },
@@ -270,7 +286,8 @@
         "customizing-reports": "Customizing reports",
         "customize-using-cli-flags": "Customize using CLI flags",
         "customize-using-csv-config-files": "Customize using CSV config files",
-        "get-target-repos-to-provide-more-info": "Get target repos to provide more info"
+        "get-target-repos-to-provide-more-info": "Get target repos to provide more info",
+        "personalizing-reports": "Personalizing Reports"
       },
       "headingKeywords": {}
     },
@@ -336,6 +353,14 @@
       "headingKeywords": {}
     },
     {
+      "src": "ug/title.md",
+      "headings": {
+        "reposense": "RepoSense",
+        "features": "Features"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "ug/troubleshooting.md",
       "title": "Appendix: Troubleshooting",
       "headings": {
@@ -344,7 +369,8 @@
         "contribution-bar-and-code-panel-is-empty-despite-a-non-empty-ramp-chart": "Contribution bar and code panel is empty (despite a non-empty ramp chart)",
         "reposense-is-not-using-the-standalone-config-file-in-my-local-repository": "RepoSense is not using the standalone config file in my local repository",
         "reposense-fails-on-windows-but-works-on-linux-mac-os": "RepoSense fails on Windows (but works on Linux/Mac OS)",
-        "some-file-types-are-not-shown-in-the-file-type-filter-even-if-i-have-included-them-in-the-file-formats-when-generating-the-report": "Some file types are not shown in the file type filter even if I have included them in the file formats when generating the report"
+        "some-file-types-are-not-shown-in-the-file-type-filter-even-if-i-have-included-them-in-the-file-formats-when-generating-the-report": "Some file types are not shown in the file type filter even if I have included them in the file formats when generating the report",
+        "reposense-doesn-t-work-on-the-browser": "RepoSense doesn't work on the browser"
       },
       "headingKeywords": {}
     },
