@@ -5,12 +5,14 @@
     {
       "matchDepTypes": ["dependencies", "devDependencies"],
       "matchUpdateTypes": ["minor", "patch"],
-      "enabled": true
+      "enabled": true,
+      "automerge": true
     },
     {
       "matchPackageNames": ["typescript"],
       "matchUpdateTypes": ["patch"],
-      "enabled": true
+      "enabled": true,
+      "automerge": true
     }
   ],
   "dependencyDashboard": true
