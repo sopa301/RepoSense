@@ -5,14 +5,12 @@
   ],
   "packageRules": [
     {
-      "matchDepTypes": [
-        "dependencies",
-        "devDependencies"
-      ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
+      {
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-minor-patch",
+      "matchPackagePatterns": ["^(?!typescript$).*"],
+      "matchDepTypes": ["dependencies", "devDependencies"],
+      "matchUpdateTypes": ["minor", "patch"],
       "enabled": true,
       "automerge": true
     },
