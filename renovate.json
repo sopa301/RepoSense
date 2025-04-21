@@ -7,7 +7,7 @@
     {
       "groupName": "all non-major dependencies",
       "groupSlug": "all-minor-patch",
-      "matchPackagePatterns": ["^(?!typescript$).*"],
+      "matchPackagePatterns": ["/^(?!typescript$).*/"],
       "matchDepTypes": ["dependencies", "devDependencies"],
       "matchUpdateTypes": ["minor", "patch"],
       "enabled": true,
